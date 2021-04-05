@@ -1,6 +1,6 @@
 _ft_strcmp :
 	xor rcx,rcx
-
+ak
 copy :
 	cmp byte[rsi + rcx],0
 	mov dl,[rsi +rcx]
