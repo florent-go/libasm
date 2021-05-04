@@ -1,3 +1,4 @@
+global _ft_strcpy
 _ft_strcpy :
 	xor rcx,rcx
 
@@ -10,6 +11,6 @@ boucle :
 	jmp boucle
 
 resultat :
-	mov [rdi + rcx],0
 	mov rax,rdi
+	mov BYTE [rdi + rcx], 0
 	ret
